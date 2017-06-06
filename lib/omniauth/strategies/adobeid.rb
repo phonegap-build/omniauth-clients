@@ -23,7 +23,8 @@ module OmniAuth
           'email' => raw_info['email'],
           'name' => raw_info['name'],
           'service_accounts' => raw_info['serviceAccounts'],
-          'country_code' => raw_info['countryCode']
+          'country_code' => raw_info['countryCode'],
+          'email_verified' => raw_info['emailVerified']
         }
       end
 
