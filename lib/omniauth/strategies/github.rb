@@ -27,7 +27,6 @@ module OmniAuth
         access_token.options[:mode] = :query
         if @raw_info.nil?
           @raw_info = access_token.get('/user').parsed
-          @raw_info['email'] = access_token.get('/user/emails').parsed
         end
         return @raw_info
       end
