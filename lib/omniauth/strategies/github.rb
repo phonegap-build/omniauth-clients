@@ -9,10 +9,6 @@ module OmniAuth
         :token_url => 'https://github.com/login/oauth/access_token'
       }
 
-      def request_phase
-        super
-      end
-
       uid { raw_info['id'] }
 
       info do

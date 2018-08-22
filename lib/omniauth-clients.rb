@@ -1,5 +1,6 @@
 require 'omniauth/strategies/adobeid'
 require 'omniauth/strategies/github'
+require 'omniauth/strategies/githubapp'
 require 'omniauth/strategies/bitbucket'
 require 'omniauth/strategies/gitlab'
 require 'omniauth/strategies/slack'
